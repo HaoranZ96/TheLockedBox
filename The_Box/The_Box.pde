@@ -15,10 +15,10 @@ void draw() {}
 void openTwitter() {
   
   ConfigurationBuilder cb = new ConfigurationBuilder();
-  cb.setOAuthConsumerKey("VpX238zWQsbOTz21r0iFj3NWx");
-  cb.setOAuthConsumerSecret("Fjp7GT1DfvRQfVSsNvgGFYCCP6eyfRxAdOjait6fhR9ihWpXTb");
-  cb.setOAuthAccessToken("1293839581004075013-5o593NIOV0hzoI1wV6u5L2swXmKmpw");
-  cb.setOAuthAccessTokenSecret("1jyueJs5ZfPaXZndJQyySQkocgXKqWsdfoakqufDKEYX9");
+  cb.setOAuthConsumerKey("***");
+  cb.setOAuthConsumerSecret("***");
+  cb.setOAuthAccessToken("***");
+  cb.setOAuthAccessTokenSecret("***");
   
   TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 
